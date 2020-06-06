@@ -1,10 +1,10 @@
 {
-  "name": "qvue",
+  "name": "qvue-js",
   "bin": {
     "qvue": "index.js"
   },
   "version": "0.0.1",
-  "description": "qvue is a very thin framework that uses the template function of vue.js.",
+  "description": "qvue-js is a very thin framework that uses the template function of vue.js.",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
