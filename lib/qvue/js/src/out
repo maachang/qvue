@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# debug-mode.
+if [[ $1 == "-d" ]]; then
+  uglifyjs ./vue.js ./qvue.js ./browser.js ./debug.js -c -o ../qvue.js
+
+# relase-mode.
+else 
+  uglifyjs ./vue.js ./qvue.js ./browser.js -c -o ../qvue.js
+fi
+
+gzip -c ../qvue.js > ../qvue.js.gz

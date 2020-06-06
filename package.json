@@ -1,0 +1,32 @@
+{
+  "name": "qvue",
+  "bin": {
+    "qvue": "index.js"
+  },
+  "version": "0.0.1",
+  "description": "qvue is a very thin framework that uses the template function of vue.js.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "js",
+    "vue",
+    "framework"
+  ],
+  "author": "masahito suzuki <maachang@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maachang/qvue.git"
+  },
+  "bugs": {
+    "url": "https://github.com/maachang/qvue/issues"
+  },
+  "homepage": "https://github.com/maachang/qvue#readme",
+  "dependencies": {},
+  "devDependencies": {},
+  "directories": {
+    "lib": "lib"
+  }
+}
