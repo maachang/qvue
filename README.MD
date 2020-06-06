@@ -1,9 +1,9 @@
 # What is qvue
 
 <p align="center">
-  <a href="https://www.npmjs.com/package/qvue"><img src="https://img.shields.io/npm/dt/qvue.svg" alt="Downloads"></a>
-  <a href="https://www.npmjs.com/package/qvue"><img src="https://img.shields.io/npm/v/qvue.svg" alt="Version"></a>
-  <a href="https://www.npmjs.com/package/qvue"><img src="https://img.shields.io/npm/l/qvue.svg" alt="License"></a>
+  <a href="https://www.npmjs.com/package/qvue-js"><img src="https://img.shields.io/npm/dt/qvue-js.svg" alt="Downloads"></a>
+  <a href="https://www.npmjs.com/package/qvue-js"><img src="https://img.shields.io/npm/v/qvue-js.svg" alt="Version"></a>
+  <a href="https://www.npmjs.com/package/qvue-js"><img src="https://img.shields.io/npm/l/qvue-js.svg" alt="License"></a>
 </p>
 
 日本語の説明は [こちら](https://github.com/maachang/qvue/blob/master/README_JP.MD)
