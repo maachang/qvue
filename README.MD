@@ -23,7 +23,7 @@ _
 ※ It is assumed that nodejs is installed and npm can be used.
 
 ```sh
-$ npm install -g qvue
+$ npm install -g qvue-js
 ```
 
 _

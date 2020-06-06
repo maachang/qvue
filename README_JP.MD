@@ -8,7 +8,7 @@
 
 English documents [here](https://github.com/maachang/qvue/blob/master/README.MD)
 
-qvueはvue.jsのテンプレート機能を利用する、凄く薄いフレームワークです。
+qvueはvue.jsのテンプレート機能を利用する、薄いフレームワークです。
 
 qvueフレームワーク自身は qvue.jsのコアjavascriptを用いますが、これらの雛形環境をいちいち、手動で作成するのも大変なので、このqvueコマンドを利用して、スケルトンモデルを作成します。
 
@@ -23,7 +23,7 @@ _
 ※ nodejsがインストールされており npm が利用できることが前提です。
 
 ```sh
-$ npm install -g qvue
+$ npm install -g qvue-js
 ```
 
 _
