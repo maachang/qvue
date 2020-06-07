@@ -72,7 +72,7 @@
   keywords = (!keywords || keywords == "") ? "" : keywords;
 
   // lib/qvue/index.html の {{base_dir}}を置き換える場合のパス名変換.
-  var appendDir = base;
+  var appendDir = base == "" ? "" : "/";
   if(appendDir.indexOf("/") == 0) {
     appendDir = appendDir.substring(1);
   }
@@ -97,25 +97,25 @@
   _cp(qvueDir + "favicon.ico", outDir + "favicon.ico");
 
   // フォルダを作成.
-  file.mkdir(outDir + "js");
+  file.mkdir(outDir + "$js");
+  file.mkdir(outDir + "$apps");
   file.mkdir(outDir + "css");
-  file.mkdir(outDir + "apps");
+
+  // apps/pagesフォルダを作成.
+  file.mkdir(outDir + "$apps/pages");
 
   // jsファイルをコピー.
-  _cp(qvueDir + "js/qvue.js", outDir + "js/qvue.js");
-  _cp(qvueDir + "js/qvue.js.gz", outDir + "js/qvue.js.gz");
+  _cp(qvueDir + "js/qvue.js", outDir + "$js/qvue.js");
+  _cp(qvueDir + "js/qvue.js.gz", outDir + "$js/qvue.js.gz");
 
   // cssファイルをコピー.
   _cp(qvueDir + "css/base.css", outDir + "css/base.css");
 
   // appsファイルコピー.
-  _cp(qvueDir + "apps/main.js", outDir + "apps/main.js");
-
-  // apps/pagesフォルダを作成.
-  file.mkdir(outDir + "apps/pages");
+  _cp(qvueDir + "apps/main.js", outDir + "$apps/main.js");
 
   // apps/pages/index.htmlファイルをコピー.
-  _cp(qvueDir + "apps/pages/index.html", outDir + "apps/pages/index.html");
+  _cp(qvueDir + "apps/pages/index.html", outDir + "$apps/pages/index.html");
 
   return true;
 })();
